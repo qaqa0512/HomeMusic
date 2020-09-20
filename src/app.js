@@ -21,11 +21,25 @@ app.set('views', path.join(__dirname, 'resource/views')); // tao duong dan
 
 // Route function
 app.get('/', (req, res) => {
+    // The body of the page "home" 
     res.render('home');
 });
+
 app.get('/courses', (req, res) => {
     res.render('course');
 });
+
+app.get('/courses', (req, res) => {
+    res.render('course');
+});
+app.get('/courses/details', (req, res) => {
+    res.render('details');
+});
+
+app.get('/blog', (req, res) => {
+    res.render('blog');
+});
+
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)

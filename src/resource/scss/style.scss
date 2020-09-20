@@ -205,6 +205,487 @@ body {
     color: $white;
 }
 
+.head-tilte img {
+    vertical-align: middle;
+    max-height: 50px;
+    max-width: 200px;
+}
+
+// Main
+
+/* Home */
+
+.home {
+    max-width: 100%;
+    height: 560px;
+    border: 1px solid transparent;
+    background-image: url('../img/pexels-photo-1490844.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 260px;
+}
+
+.home-title {
+    margin-bottom: 30px;
+    color: #AE4CA4;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.home-title>h2 {
+    margin-left: 25px;
+}
+
+.home-btn>a {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #FAACA8;
+    padding: 10px 50px;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #AE4CA4;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+}
+
+.home-btn>a:hover {
+    box-shadow: 0 0 10px 1px #aeb1bb;
+}
+
+
+/* Course - HomePage*/
+
+.course {
+    width: 80%;
+    height: 630px;
+    margin: 30px auto;
+}
+
+.course-online {
+    width: 100%;
+}
+
+.course-intro>h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #AE4CA4;
+    text-transform: uppercase;
+}
+
+.course-body {
+    width: 370px;
+    height: 435px;
+    border: 1px solid #EBEBEB;
+    margin-top: 60px;
+    margin-right: 50px;
+    border-radius: 23px;
+    overflow: hidden;
+}
+
+.course-position {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.course-body img {
+    width: 370px;
+}
+
+.course-flex {
+    display: flex;
+}
+
+.course-title {
+    margin-top: 5px;
+}
+
+.course-title>h2>a {
+    color: #E1306C;
+    text-decoration: none;
+}
+
+.course-title>h2>a:hover {
+    color: #AE4CA4;
+    transition: all 0.3s li;
+}
+
+.course-info {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.course-info>ul {
+    list-style: none;
+    display: flex;
+}
+
+.icon-lane {
+    margin: 0 10px;
+    color: #AE4CA4;
+}
+
+.course-info>ul>li>a {
+    text-decoration: none;
+    color: #AE4CA4;
+    font-size: 17px;
+}
+
+.course-info>ul>li>a:hover {
+    color: #E1306C;
+    transition: all 0.3s linear;
+}
+
+.course-text {
+    width: 275px;
+}
+
+.course-text>span {
+    font-size: 17px;
+    line-height: 1.5rem;
+}
+
+.course-footer {
+    width: 100%;
+    height: 45px;
+    border-top: 1px solid #EBEBEB;
+    display: flex;
+}
+
+.padding-course {
+    padding-top: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.price {
+    margin: 0px 80px;
+}
+
+.price>a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid #FEE140;
+    padding: 0px 25px;
+    font-weight: bold;
+    border-radius: 30px;
+    color: #AE4CA4;
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+}
+
+.price>a:hover {
+    box-shadow: 0 0 10px 1px #aeb1bb;
+    transition: all 0.2s linear;
+}
+
+
+/* Event */
+
+.event-background {
+    padding-top: 60px;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+.event {
+    width: 80%;
+    height: 500px;
+    margin: 30px auto;
+}
+
+.event-title {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.event-title>h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #E1306C;
+    text-transform: uppercase;
+}
+
+.event-image {
+    position: relative;
+}
+
+.event-flex {
+    display: flex;
+}
+
+.event-body {
+    width: 370px;
+    height: 270px;
+    border: 1px solid #d3c3c3;
+    margin-right: 50px;
+    border-radius: 23px;
+    overflow: hidden;
+}
+
+.event-body img {
+    width: 370px;
+}
+
+.event-padding {
+    padding: 20px;
+    display: flex;
+}
+
+.event-info>a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E1306C;
+}
+
+.event-info>a:hover {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #dd3695;
+}
+
+.event-btn {
+    margin-left: 80px;
+}
+
+.event-btn>a {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px 35px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #E1306C;
+    text-decoration: none;
+    background-color: #F8F8F8;
+    outline: none;
+}
+
+.event-btn>a:hover {
+    box-shadow: 0 0 15px 1px #b6bbcb;
+    transition: all 0.3s linear;
+}
+
+
+/* Blog */
+
+.blog {
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.blog-body {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 100px;
+}
+
+
+/* blog-left */
+
+.blog-left {
+    width: 50%;
+    height: 350px;
+    border: 1px solid #EBEBEB;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+
+.blog-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blog-title>h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #E1306C;
+}
+
+.blog-text {
+    padding: 10px;
+}
+
+.blog-text>span {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.blog-flex {
+    display: inline-flex;
+    padding: 7px;
+}
+
+.blog-category {
+    width: 170px;
+    height: 99px;
+    border: 1px solid #FBAB7E;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 38px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.layer-blog {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    width: 170px;
+    height: 99px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.layer-blog:hover {
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.blog-list-img {
+    width: 170px;
+    height: 99px;
+}
+
+.blog-list-img>img {
+    width: 170px;
+    height: 99px;
+}
+
+.blog-category .blog-category-title>h3 {
+    position: absolute;
+    top: 37px;
+    left: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.blog-category .blog-category-title1>h3 {
+    position: absolute;
+    top: 37px;
+    left: 57px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* blog-right */
+
+.blog-right {
+    width: 50%;
+    height: 350px;
+    border: 1px solid #EBEBEB;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/pexels-photo-3776557.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-container {
+    width: 250px;
+    height: 302px;
+}
+
+.blog-title-container {
+    width: 480px;
+    border: 1px solid transparent;
+    height: 100%;
+    position: absolute;
+    top: calc(100% - 165px);
+    left: 0;
+    background-color: #f7f7f7;
+    padding-left: 40px;
+}
+
+.blog-right:hover .blog-title-container {
+    top: 0;
+    transition: all 0.3s linear;
+}
+
+.blog-righit-text {
+    margin-top: 30px;
+}
+
+.blog-righit-text>a {
+    text-decoration: none;
+    color: #E1306C;
+    font-size: 20px;
+}
+
+.blog-righit-text>a:hover {
+    color: #AE4CA4;
+}
+
+.blog-right-title {
+    margin-top: 30px;
+}
+
+.blog-right-title>a {
+    text-decoration: none;
+    color: #E1306C;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.blog-right-title>a:hover {
+    color: #AE4CA4;
+}
+
+.blog-right-content {
+    margin-top: 30px;
+    width: 410px;
+}
+
+.blog-right-content>p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.blog-right-details {
+    margin-top: 30px;
+}
+
+.blog-right-details>a {
+    text-decoration: none;
+    font-size: 19px;
+    color: #E1306C;
+}
+
+.blog-right-details>a:hover i {
+    transform: translateX(5px);
+}
+
+.blog-right-details>a>i {
+    margin-left: 10px;
+}
+
 
 /* Footer */
 
@@ -213,8 +694,6 @@ footer {
     height: 50px;
     position: absolute;
     border: 1px solid $mgrey;
-    bottom: 0;
-    left: 0;
     background-color: $gyellow;
     background-image: linear-gradient(45deg, $gyellow 0%, $gpink 100%);
 }

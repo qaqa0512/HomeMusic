@@ -14,6 +14,8 @@
     
     {{!-- CSS --}}
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/courses.css">
+    <link rel="stylesheet" href="/css/details.css">
     
     {{!-- Boostrap --}}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,12 +26,9 @@
         {{!-- Header --}}
         {{> header}} {{!-- Dc nap tu partial/header --}}
         {{!-- Content --}}
-        <div class="content">
-            {{{body}}} {{!-- Dc nap tu layouts/main --}}
-        </div>
+        {{{body}}} {{!-- Dc nap tu layouts/main --}}
          {{!-- Footer --}}
         {{> footer}}{{!-- Dc nap tu partial/footer --}}
     </div>
-    
 </body>
 </html>
