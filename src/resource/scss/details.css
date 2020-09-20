@@ -1,4 +1,3 @@
-@import 'variables';
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +6,26 @@
 
 .Intro {
     width: 100%;
-    height: 500px;
-    border: 1px solid #000;
+    height: auto;
 }
 
 .background-intro {
-    /* background-image: url("../img/tải xuống.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    width: 100%;
+    height: 600px;
+}
+
+.background-intro img {
+    width: 100%;
+    height: 600px;
+}
+
+.intro-content {
+    position: absolute;
+    bottom: -40px;
+    width: 450px;
+    height: 220px;
+    margin-left: 150px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid #000000;
 }
