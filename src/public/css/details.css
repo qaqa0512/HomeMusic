@@ -65,3 +65,83 @@
   width: 120px;
   height: 120px;
   border-radius: 50%; }
+
+.course-details {
+  width: 100%;
+  height: 700px; }
+
+.course-details-top {
+  width: 100%;
+  height: 80px;
+  background-color: #f1f1f1; }
+
+.course-details-container {
+  width: 80%;
+  border: 1px solid #000000;
+  height: auto;
+  margin: 0 auto; }
+
+.left-details {
+  border: 1px solid #E1306C;
+  width: 70%;
+  height: auto; }
+
+.tab-details {
+  width: 100%; }
+
+.tab-details ul {
+  display: flex;
+  list-style: none;
+  border: 1px solid #000000;
+  border-radius: 5px; }
+
+.tab-details ul li {
+  width: 300px;
+  padding: 7px;
+  border-right: 1px solid #000000;
+  text-align: center;
+  color: #E1306C;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2;
+  position: relative; }
+
+.tab-details ul li:last-child {
+  border-right: 0px; }
+
+.tab-details ul li::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #FEE140;
+  transition: all 0.2s;
+  opacity: 0; }
+
+.tab-details ul li:hover,
+.tab-details ul li.active {
+  background-color: #e8f5f1; }
+
+.tab-details ul li:hover:before,
+.tab-details ul li.active:before {
+  opacity: 1; }
+
+.tab-content-details {
+  background: #fbfbfb;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 20px; }
+
+.tap-warp .tab-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600; }
+
+.tap-warp p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 22px; }
