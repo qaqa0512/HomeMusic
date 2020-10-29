@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     {{!-- Font Awesome --}}
-    <link rel="stylesheet" href="font/css/fontawesome.css">
+    <link rel="stylesheet" href="/fonts/css/fontawesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/fontawesome.min.css">
 
@@ -16,24 +16,21 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/courses.css">
     <link rel="stylesheet" href="/css/details.css">
+    <link rel="stylesheet" href="/css/register.css">
     
     {{!-- Boostrap --}}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Home Music</title>
+    <title>{{ title }}</title>
 </head>
 <body>
     <div class="Hutech">
-        {{!-- Header --}}
-        {{> header}} {{!-- Dc nap tu partial/header --}}
         {{!-- Content --}}
         {{{body}}} {{!-- Dc nap tu layouts/main --}}
-         {{!-- Footer --}}
-        {{> footer}}{{!-- Dc nap tu partial/footer --}}
     </div>
 
-
-
     {{!-- Javascript --}}
-    <script src="/js/script.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </body>
 </html>

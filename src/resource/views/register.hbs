@@ -1,0 +1,23 @@
+<div class="box">
+        <div class="btn-return">
+            <a href="/"><i class="fa fa-arrow-left"></i></a>
+        </div>
+        <div class="form-box">
+            <div class="box-title">
+                <h1><i class="fas fa-compact-disc"></i> Đăng Ký</h1>
+            </div>
+            <!-- register -->
+            <form id="register" class="input-group" method="POST" action="/auth/dangkitk">
+                <input type="text" name="name" class="input-field" placeholder="Nhập họ tên..."  required>
+                <input type="text" name="email" class="input-field" placeholder="Nhập email..." required>
+                <input type="password" name="pass" class="input-field" placeholder="Nhập mật khẩu..." required>
+                <input type="password" name="repass" class="input-field" placeholder="Xác nhận lại mật khẩu 1 lần nữa..." required>
+                <input type="checkbox" class="check-box"><span>Tui đồng ý</span><a href="/dangnhap" id="title-box3">Quay lại đăng nhập</a>
+                <input type="submit" class="submit-btn" value="Đăng ký">
+            </form>
+            {{#if message}}
+                <p id="alert-text"><i class="fas fa-exclamation-circle"></i> {{message}}</p>
+            {{/if}}
+        </div>
+    </div>
+<script src="/js/login.js"></script>

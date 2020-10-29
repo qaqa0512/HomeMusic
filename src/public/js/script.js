@@ -16,4 +16,18 @@ tabs.forEach(function(tab, tab_index) {
             }
         })
     })
-})
+});
+
+// --------- scrolled ------------- //
+window.addEventListener("scroll", function() {
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+});
+
+// --------- search ----------//
+var searchBtn = document.querySelector(".searchbtn");
+var searchBox = document.querySelector(".search");
+var searchInput = document.querySelector(".typing");
+searchBtn.onclick = () => {
+    searchInput.classList.add("active-width");
+}

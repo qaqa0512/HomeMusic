@@ -75,37 +75,36 @@
 
 .img-intro {
     position: absolute;
-    top: 60px;
+    top: 40px;
     right: 30px;
 }
 
 .img-intro img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
-// course-intro
 .course-details {
     width: 100%;
     height: 700px;
 }
 
-.course-details-top {
+.course-top-details {
     width: 100%;
-    height: 80px;
+    height: 70px;
     background-color: #f1f1f1;
 }
 
 .course-details-container {
     width: 80%;
-    border: 1px solid #000000;
     height: auto;
     margin: 0 auto;
+    padding-top: 27px;
+    display: flex;
 }
 
 .left-details {
-    border: 1px solid #E1306C;
     width: 70%;
     height: auto;
 }
@@ -117,14 +116,12 @@
 .tab-details ul {
     display: flex;
     list-style: none;
-    border: 1px solid #000000;
     border-radius: 5px;
 }
 
 .tab-details ul li {
     width: 300px;
     padding: 7px;
-    border-right: 1px solid #000000;
     text-align: center;
     color: #E1306C;
     text-transform: uppercase;
@@ -178,4 +175,20 @@
     margin-bottom: 10px;
     font-size: 14px;
     line-height: 22px;
+}
+
+.right-details {
+    width: 30%;
+    height: auto;
+    border: 1px solid #E1306C;
+}
+
+.right-details .right-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    height: 41px;
 }
